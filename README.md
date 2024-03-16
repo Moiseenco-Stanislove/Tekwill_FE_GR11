@@ -1,6 +1,6 @@
 # TEKWILL-academy
 
-www.google.com(url)
+[www.google.com](url)
 
 *MARKDOWN*
 
