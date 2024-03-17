@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+
+    <h3>Basic information</h3>
+    <hr>
+    <form action="www.sait.com">
+        <label for="fname">Full Name:</label>
+        <input type="text" placeholder="Enter your fullname" maxlength="20" name="fname" id="fname"> <br>
+        <label for="email">Email:</label>
+        <input type="Email" name="email" id="email"> <br>
+        <label for="pw">Password:</label>
+        <input type="password" name="pw" id="pw"> 
+        <label for="pass">Confirm Password:</label>
+        <input type="password" name="pass" id="pass"><br>
+        <label for="male">Male:</label>
+        <input type="radio" name="Gender">
+        <label for="Female">Female:</label>
+        <input type="radio" name="Gender">
+        <label for="other">Other:</label>
+        <input type="radio" name="Gender"><br>
+        <label for="birthday">Date of Birth:</label>
+        <input type="date" name="birthday" id="birthday">
+    <hr>
+    <hr>
+
+    <h3>Adress information</h3>
+    <label for="Adress">Your Adress:</label>
+    <textarea name="Adress" id="Adress"></textarea ><br>
+    <label for="Country">Country:</label>
+    <select>
+        <option>USA</option>
+        <option>MOLDOVA</option>
+        <option>UK</option>
+    </select><br>
+    <label for="City">City:</label>
+    <input type="text" name="City" id="City"><br>
+    <label for="post_code">Postal Code:</label>
+    <input type="text" pattern="[0-9]*" name="postal_code" id="postal_code" placeholder="Enter Zip-code" maxlength="4"><br>
+    <hr>
+    <hr>
+
+    <h3>Preferences</h3>
+    <label for="Email">
+        <input type="checkbox" id="Email" name="option" value="Email"> Email
+      </label>
+      <label for="Phone">
+        <input type="checkbox" id="Phone" name="option" value="Phone"> Phone
+      </label>
+      <label for="Postal mail">
+        <input type="checkbox" id="Postal mail" name="option" value="Postal mail"> Postal mail
+      </label><br>
+
+      <label for="fav_color">Favourite color:</label>
+      <input type="color"> 
+      <hr>
+
+      <h3>Additional details</h3>
+      <label for="add_info" > How did you hear about us?</label>
+    
+      <select>
+        <option>Internet</option>
+        <option>Friends</option>
+        <option>somewhere</option>
+      </select><br>
+
+      <label for="comment">Feedback/Comment:</label>
+      <textarea name="comment" id="comment"></textarea ><br>
+      <hr>
+
+     <h3>Profile:</h3>
+
+     <label for="photo">Upload your profile picture:</label> 
+     <input type="file" name="photo" id="photo"><br><br>
+     
+     Website URL: 
+     <a href="http://www.myweb12.com" target=_blank title="move on my web">MyWeb</a><br><br>
+
+     <hr>
+    
+      <label for="quantity">Experience lvl in HTML:</label>
+       <input type="range" id="quantity" name="quantity" min="0" max="10" value="5" oninput="quantityOutput.value = this.value">
+        <output id="quantityOutput" for="quantity">5</output>
+       </label><br><br>
+
+       <hr>
+      
+
+     <input type="submit" value="Submit">
+     <input type="reset" value="Reset">
+
+
+
+    
+
+   <hr>
+
+    
+        
+
+
+
+
+
+    </form>
+
+  
+
+
+
+    
+
+
+
+    
+
+
+</body>
+</html>
